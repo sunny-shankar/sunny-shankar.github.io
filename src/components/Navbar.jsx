@@ -13,9 +13,9 @@ const Navbar = () => {
         document.querySelector('html').setAttribute('data-theme', theme)
     }, [theme])
     return (
-        <div className="navbar bg-base-100 px-64">
+        <div className="navbar bg-base-100 px-0">
             <div className="flex-1">
-                <a className="btn btn-ghost font-bold font-[WindSong] text-3xl">Sunny</a>
+                <a className="btn btn-ghost font-bold font-[WindSong] text-3xl mx-0 px-0">Sunny</a>
             </div>
             <div className="flex-none">
                 <label className="swap swap-rotate">
