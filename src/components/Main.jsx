@@ -6,7 +6,7 @@ const Main = () => {
     return (
         <div>
 
-            <div className="flex justify-between items-center py-12 my-10">
+            <div className="flex py-12 my-10">
                 {/* for title */}
                 <div className=" w-3/4">
                     <h1 className="text-4xl font-bold">
@@ -33,8 +33,8 @@ const Main = () => {
                     </div>
                 </div>
                 {/* for img */}
-                <div>
-                    <img className="rounded h-40 w-40" src={ProfilePic} alt="" />
+                <div className=" pt-6">
+                    <img className="rounded h-44  w-44" src={ProfilePic} alt="" />
                 </div>
             </div>
 
